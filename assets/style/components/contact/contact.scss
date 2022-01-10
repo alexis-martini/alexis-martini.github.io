@@ -1,0 +1,64 @@
+    .vrs-contact {
+        height: 100%;
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        gap: $default-padding;
+
+        &__location {
+            width: 90%;
+            @include flexbox();
+            @include flex-direction(column);
+            @include align-items(center);
+            padding: $double-padding 0;
+            border: $double-border;
+
+            &__name {
+                font-weight: 700;
+                font-size: $huge-font-size;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+
+        &__email {
+            display: flex;
+            margin-top: $double-margin;
+            margin-bottom: $double-margin;
+
+            img {
+                width: 20px;
+                margin-right: $default-margin;
+            }
+        }
+
+        h2 {
+            margin: 0;
+            margin-top: $double-margin;
+        }
+    }
+
+    @media screen and (min-width: 601px){
+        .vrs-contact {
+            justify-content: center;
+
+            &__location {
+                width: 50%;
+            }
+
+            h2 {
+                margin-top: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1200px){
+        .vrs-contact {
+            &__location {
+                width: 30%;
+            }
+        }
+    }
+

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvegan_ramen_shop_app=self.webpackChunkvegan_ramen_shop_app||[]).push([[592],{3856:(n,a,l)=>{l.d(a,{c:()=>u});class u{static unsubscribeAllSubscriptions(e){(null==e?void 0:e.length)&&e.forEach(_=>{})}}}}]);

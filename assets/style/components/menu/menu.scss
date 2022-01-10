@@ -1,0 +1,155 @@
+.vrs-menu {
+  &__element {
+    @include flexbox();
+    @include flex-direction(column);
+    @include align-items(center);
+
+    &__name {
+      text-transform: uppercase;
+      letter-spacing: $letter-spacing-small;
+      text-align: center;
+    }
+  
+    &__price {
+      font-weight: 600;
+    }
+  
+    &__photo {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  h2 {
+    letter-spacing: $letter-spacing-medium;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 600px) {
+  .vrs-menu__categories {
+    @include flexbox();
+    @include justify-content(center);
+    @include align-items(center);
+    position: fixed;
+    background-color: white;
+    height: $menu-categories-height-mobile;
+    width: 100%;
+    margin-top: unquote($double-border-value + $nav-height-mobile-value  + 'px ');
+    border-bottom: $double-border;
+
+    div {
+      margin-right: $double-margin;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: $extra-medium-font-size;
+    }
+  }
+
+  .vrs-menu {
+    font-weight: 300;
+    padding-top: 40px;
+    padding-top: unquote($nav-height-mobile-value  + calc(2 * $default-margin-value) + $menu-categories-height-mobile-value + 'px ');
+
+    &__element {
+      @include justify-content(center);
+      border: $double-border;
+      border-bottom: $default-border;
+      margin: 0 $double-margin;
+      background-color: white;
+
+      &__photo {
+        width: 40%;
+        padding: $double-padding 0 0 0;
+      }
+
+      &__name {
+        &--service {
+          font-size: $normal-font-size;
+          margin: $default-margin;
+        }
+      }
+
+      &__desc {
+        text-align: center;
+        padding: $double-padding;
+        padding-top: 0;
+        font-size: $extra-medium-font-size;
+      }
+
+      &__price {
+        margin: 0 0 $double-margin 0;
+      }
+
+      h4 {
+        margin: $double-margin 0;
+      }
+    }
+  }
+}
+
+@media(min-width: 601px) {
+  .vrs-menu__categories {
+    display: none;
+  }
+
+	.vrs-menu { 
+    @include flexbox();
+    @include flex-direction(column);
+    margin-left: -1px;
+    margin-top: -1px;
+
+    &__elements {
+      @include flexbox();
+      @include flex-wrap(wrap);
+    }
+
+    &__element {
+      @include flex(1 0 23%);
+      background-color: white;
+      padding: $double-padding;
+      border: 1px solid black;
+
+      &--hover {
+        &:hover {
+          cursor: pointer;
+          background-color: $hoover;
+        }
+      }
+
+      &__drinks {
+        @include flex(1 0 19%);
+        @include justify-content(space-between);
+      }
+
+      &__photo {
+        width: 200px;
+      }
+
+      &__desc {
+        height: 100%;
+        font-size: $medium-font-size;
+        text-align: center;
+      }
+
+      &__price {
+        margin-top: $double-margin;
+      }
+
+      &__header {
+        padding: $default-padding;
+      }
+
+      &__name {
+        &--baby-ramen {
+          font-size: $large-font-size;
+        }
+      }
+    }
+
+    h2 {
+      letter-spacing: $letter-spacing-very-large;
+    }
+   }
+}

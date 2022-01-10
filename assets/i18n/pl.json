@@ -1,0 +1,172 @@
+{
+    "_general": {
+        "page-not-found": "Nie znaleziono strony"
+    },
+    "_nav": {
+        "menu": "Menu",
+        "contact": "Kontakt"
+    },
+    "_menu": {
+        "baby-ramen": {
+            "name": "BABY RAMEN",
+            "desc": "porcja makaronu podlana bulionem z Clear Shoyu",
+            "price": "15 PLN"
+        },
+        "service": "Do stolików powyzej 4 osób doliczany jest serwis 10%.",
+        "categories": {
+            "1": "Przystawki",
+            "2": "Ramen",
+            "3": "Desery",
+            "4": "Napoje",
+            "5": "Piwka"
+        },
+        "categories-jap": {
+            "1": "前菜",
+            "2": "ラーメン",
+            "3": "デザート",
+            "4": "飲み物",
+            "5": "ビール"
+        },
+        "food": {
+            "goma-dare": {
+                "name": "Szpinak Goma-Dare",
+                "desc": "Japońska barowa przekąska. Parzone liście szpinaku, polane sezamowym sosem z morską posypką z prażonych glonów nori i migdałów. Posypane startą skórką z cytryny. Najsmaczniejszy szpinak jaki jedliśmy.",
+                "desc2": ""
+            },
+            "edamame": {
+                "name": "Edamame",
+                "desc": "Młoda, zielona fasolka w grubych strączkach. Tak wygląda właśnie młoda soja. Podajemy ją z grubą solą morską, bo nic jej więcej nie potrzeba. Strączek idealny.",
+                "desc2": ""
+            },
+            "natto": {
+                "name": "Natto",
+                "desc": "Fermentowana soja. Ciągnie się i ma trochę drożdżowy zapach. W Japonii to taki klasyk jak u nas kiszone ogórki. Jak znasz i lubisz, to mamy dobre. Jak nie znasz i masz odwagę – to masz przygodę.",
+                "desc2": ""
+            },
+            "clear-shoyu-ramen": {
+                "name": "Clear Shoyu Ramen",
+                "desc": "Najdelikatniejszy i najgłębszy z naszych ramenów, zrobiony na klarownym bulionie z samych grzybów, który gotujemy przez 6 godzin. Baza z mieszanki sosów sojowych dopełniona olejem z jabłkiem, cebuli i imbiru.",
+                "desc2": "świeże enoki, por, menma (marynowany bambus) pieczony pomidor i listki mizuny (lub sezonowo kiełki groszku). Mogą go jeść dzieci i osoby, które nie lubią ostrego."
+            },
+            "tantan-men": {
+                "name": "Tantan-men",
+                "desc": "Ostry, ale tak na serio, nie dla leszczy. Gęsty, kremowy i mocno sezamowy. Jest w nim naszej roboty tahini, olej chilli, czarny ocet z Chin, oraz mrowiący w język pieprz syczuański. Mocny i sycący.",
+                "desc2": "sojowe mielone, kiełki mung, pak choi i szczypiorek."
+            },
+            "pumpkin-spicy-miso-ramen": {
+                "name": "Pumpkin Spicy Miso Ramen",
+                "desc": "Nasze klasyczne spicy miso*, tyle że trochę bardziej jesieniarskie, z masłem orzechowym, dynią i korzennymi przyprawami jak z pumpkin spice latte.",
+                "desc2": "Pieczona dynia, pomarańczowe kluseczki, masło orzechowe, korzenne przyprawy i chrupki Curly’s"
+            },
+            "creamy-shio-ramen": {
+                "name": "Creamy Shio Ramen",
+                "desc": "Gęsty, kremowy bulion, w smaku trochę morski przez glony i trochę leśny przez grzyby. Jakby robotnicze wakacje na Okinawie.",
+                "desc2": "Marynowane shiitake, chrupiące glony nori, szczypiorek, kiełki mung, prażona cebulka i olej z palonego czosnku. Klasyczek, polecany na pierwszy raz u nas."
+            },
+            "ramncheese": {
+                "name": "RAM’N’CHEESE",
+                "desc": "Nie ma tu bulionu, jest tylko mac and cheese na serze z ziemniaczków i orzeszków. Jest to takie dobre, że nawet nie czuć, że wegańskie XD",
+                "desc2": "Wersja dla człowieka wysokiej kultury z marynowanym jalapeno + 2PLN"
+            },
+            "miso-carmel-apple": {
+                "name": "Jabłko Misokarmel",
+                "desc": "Gęsty, kremowy bulion, w smaku trochę morski przez glony i trochę leśny przez grzyby. Jakby robotnicze wakacje na Okinawie.",
+                "desc2": ""
+            },
+            "amazake": {
+                "name": "amazake",
+                "desc": "Gęsty, kremowy bulion, w smaku trochę morski przez glony i trochę leśny przez grzyby. Jakby robotnicze wakacje na Okinawie.",
+                "desc2": ""
+            },
+            "cola": {
+                "name": "Cola",
+                "desc": "",
+                "desc2": ""
+            },
+            "tea": {
+                "name": "Herbata",
+                "desc": "smaki się zmieniają, trzeba pytać",
+                "desc2": ""
+            },
+            "oi-ocha": {
+                "name": "Oi Ocha",
+                "desc": "japońska zielona herbata bez cukru w puszce, jak z automatu",
+                "desc2": ""
+            },
+            "ramune-soda": {
+                "name": "Ramune - Soda",
+                "desc": "smaki się zmieniają, trzeba pytać",
+                "desc2": ""
+            },
+            "bear-mate": {
+                "name": "Bear Mate 0%",
+                "desc": "oranzada nowego pokolenia.",
+                "desc2": "Yerba Mate + chmiel"
+            },
+            "kombucha": {
+                "name": "Kombucha",
+                "desc": "rózne smaki, trzeba pytać",
+                "desc2": ""
+            },
+            "tap-water": {
+                "name": "Woda z kranu",
+                "desc": "FREE",
+                "desc2": ""
+            },
+            "asahi": {
+                "name": "Asahi",
+                "desc": "",
+                "desc2": ""
+            },
+            "kirin": {
+                "name": "Kirin",
+                "desc": "",
+                "desc2": ""
+            },
+            "sapporo": {
+                "name": "Sapporo",
+                "desc": "",
+                "desc2": ""
+            },
+            "echigo-stout": {
+                "name": "Echigo Stout",
+                "desc": "",
+                "desc2": ""
+            },
+            "koshihikari": {
+                "name": "Koshihikari",
+                "desc": "",
+                "desc2": ""
+            },
+            "suntory-all-free": {
+                "name": "Suntory All Free",
+                "desc": "",
+                "desc2": ""
+            },
+            "sapporo-free": {
+                "name": "Sapporo Premium Free",
+                "desc": "",
+                "desc2": ""
+            }
+        }
+    },
+    "_contact": {
+        "reservations": "Nie prowadzimy rezerwacji.",
+        "muranow": {
+            "name": "MURANÓW",
+            "info": ""
+        },
+        "saska": {
+            "name": "SASKA",
+            "info": ""
+        },
+        "mokotow": {
+            "name": "MOKOTÓW",
+            "info": "(wejście od Różanej)"
+        },
+        "wisla": {
+            "name": "RAMENKA NAD WISŁĄ",
+            "info": "(tuż obok Mostu Poniatowskiego)"
+        }
+    }
+}

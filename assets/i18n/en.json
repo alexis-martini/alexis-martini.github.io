@@ -1,0 +1,165 @@
+{
+    "_general": {
+        "page-not-found": "Page Not Found"
+    },
+    "_nav": {
+        "menu": "Menu",
+        "contact": "Contact"
+    },
+    "_menu": {
+        "baby-ramen": {
+            "name": "BABY RAMEN",
+            "desc": "just noodles with clear shoyu stock",
+            "price": "15 PLN"
+        },
+        "service": "For tables with more than 4 people 10% service charge is added.",
+        "categories": {
+            "1": "Appetizers",
+            "2": "Ramen",
+            "3": "Desserts",
+            "4": "Drinks",
+            "5": "Beer"
+        },
+        "food": {
+            "goma-dare": {
+                "name": "Goma-Dare Spinach",
+                "desc": "Japanese bar classic - steamed spinach leaves in sweet miso - sesame sauce. Served with powdered seaweed, almonds and lemon zest. It is impossible to make spinach any tastier. Believe us. We tried.",
+                "desc2": ""
+            },
+            "edamame": {
+                "name": "Edamame",
+                "desc": "Fresh, baby soybeans in the pods. Served only with coarse sea salt. Nothing else is needed. Bean perfection.",
+                "desc2": ""
+            },
+            "natto": {
+                "name": "Natto",
+                "desc": "Fermented soy beans with kinda sticky texture. Tastes kinda like tempeh.National delicacy for the Japanese, a controversy for Europeans. If you know this dish and you love it, we have top quality natto. If you never tried it, be adventurous.",
+                "desc2": ""
+            },
+            "clear-shoyu-ramen": {
+                "name": "Clear Shoyu Ramen",
+                "desc": "The mildest and the fairest of them all. It has a distinct umami flavour from a mushroom broth and a soy based tare. We serve it with apple/ginger/onion flavoured oil.",
+                "desc2": "Toppings: enoki mushrooms, leek, mizuna leaves, menma, and backed tomato."
+            },
+            "tantan-men": {
+                "name": "Tantan-men",
+                "desc": "Thicc, spicy and creamy broth with vegan meat. Soup is made with our veggie broth, soy milk, homemade tahini, chilli oil, black vinegar from China and spicy Szechuan pepper with tongue paralysing properties.",
+                "desc2": "Toppings: minced soy meat, mung bean sprouts, chives and bok choy. Attention: spicy, not for rookies."
+            },
+            "pumpkin-spicy-miso-ramen": {
+                "name": "Pumpkin Spicy Miso Ramen",
+                "desc": "Thick and creamy broth with a mix of Japanese miso paste, sesame and chilli. Is it spicy? Not really, but if you're not used to spicy food it may squeeze out a tear or two.",
+                "desc2": "Toppings: baked sweet potato, blanched bok choy, mung bean sprouts, chives and chilli threads."
+            },
+            "creamy-shio-ramen": {
+                "name": "Creamy Shio Ramen",
+                "desc": "Creamy broth, great for your first time in our ramen shop. We are using a lot of seaweed and mushrooms here. The bowl tastes just like a working class holiday on Okinawa island.",
+                "desc2": "Toppings: marinated shiitake mushrooms, chives, mung bean sprouts, burnt garlic oil, and crunchy nori seaweeds."
+            },
+            "ramncheese": {
+                "name": "RAM’N’CHEESE",
+                "desc": "This is basically noodles with cheezy sauce we make with nuts and potatoes. So good nobody can tell it's vegan.",
+                "desc2": "Great with marinated jalalapeno (+ 2 PLN) but if you don't like spicy it's just optional."
+            },
+            "miso-carmel-apple": {
+                "name": "Miso Carmel Apple",
+                "desc": "Fried sour apple covered with miso caramel and sprinkled with cinnamon flour.",
+                "desc2": ""
+            },
+            "amazake": {
+                "name": "Homemade Amazake",
+                "desc": "A traditional Japanese drink made with fermented rice. Also known as sweet sake. Warm, healthy and non alcoholic.",
+                "desc2": ""
+            },
+            "cola": {
+                "name": "Cola",
+                "desc": "",
+                "desc2": ""
+            },
+            "tea": {
+                "name": "Tea",
+                "desc": "various flavours - feel free to ask",
+                "desc2": ""
+            },
+            "oi-ocha": {
+                "name": "Oi Ocha",
+                "desc": "japanese sugarfree green tea in a can, just like from a vending machine",
+                "desc2": ""
+            },
+            "ramune-soda": {
+                "name": "Ramune - Soda",
+                "desc": "various flavours - feel free to ask",
+                "desc2": ""
+            },
+            "bear-mate": {
+                "name": "Bear Mate 0%",
+                "desc": "new generation soda.",
+                "desc2": "Yerba Mate + hop"
+            },
+            "kombucha": {
+                "name": "Kombucha",
+                "desc": "various flavours - feel free to ask",
+                "desc2": ""
+            },
+            "tap-water": {
+                "name": "Filtred Tap Water",
+                "desc": "FREE",
+                "desc2": ""
+            },
+            "asahi": {
+                "name": "Asahi",
+                "desc": "",
+                "desc2": ""
+            },
+            "kirin": {
+                "name": "Kirin",
+                "desc": "",
+                "desc2": ""
+            },
+            "sapporo": {
+                "name": "Sapporo",
+                "desc": "",
+                "desc2": ""
+            },
+            "echigo-stout": {
+                "name": "Echigo Stout",
+                "desc": "",
+                "desc2": ""
+            },
+            "koshihikari": {
+                "name": "Koshihikari",
+                "desc": "",
+                "desc2": ""
+            },
+            "suntory-all-free": {
+                "name": "Suntory All Free",
+                "desc": "",
+                "desc2": ""
+            },
+            "sapporo-free": {
+                "name": "Sapporo Premium Free",
+                "desc": "",
+                "desc2": ""
+            }
+        }
+    },
+    "_contact": {
+        "reservations": "We don't make reservations.",
+        "muranow": {
+            "name": "MURANÓW",
+            "info": ""
+        },
+        "saska": {
+            "name": "SASKA",
+            "info": ""
+        },
+        "mokotow": {
+            "name": "MOKOTÓW",
+            "info": "(entrance from Rozana Street)"
+        },
+        "wisla": {
+            "name": "RAMENKA NAD WISŁĄ",
+            "info": "(right next to Poniatowski Bridge)"
+        }
+    }
+}

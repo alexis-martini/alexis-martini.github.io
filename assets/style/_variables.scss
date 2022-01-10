@@ -1,0 +1,48 @@
+@use 'sass:math';
+
+// margin
+$default-margin-value: 10;
+$half-margin: unquote(math.div($default-margin-value, 2) + 'px ');
+$default-margin: unquote($default-margin-value + 'px ');
+$double-margin: unquote($default-margin-value * 2 + 'px ');
+
+// padding
+$default-padding-value: 10;
+$half-padding: unquote(math.div($default-padding-value, 2) + 'px ');
+$default-padding: unquote($default-padding-value + 'px ');
+$double-padding: unquote($default-padding-value * 2 + 'px ');
+
+//
+$nav-height-mobile-value: 90;
+$nav-height-mobile: unquote($nav-height-mobile-value + 'px ');
+$menu-categories-height-mobile-value: 40;
+$menu-categories-height-mobile: unquote($menu-categories-height-mobile-value + 'px ');
+$default-border-value: 1;
+$default-border-size: unquote($default-border-value + 'px ');
+$double-border-value: 2;
+$double-border-size: unquote($double-border-value + 'px ');
+
+
+//colors 
+$hoover: rgb(228, 228, 228);
+
+// fonts
+$letter-spacing-small: 2px;
+$letter-spacing-medium: 6px;
+$letter-spacing-large: 10px;
+$letter-spacing-very-large: 14px;
+
+$extra-small-font-size: 6px;
+$small-font-size: 8px;
+$normal-font-size: 10px;
+$medium-font-size: 12px;
+$extra-medium-font-size: 14px;
+$large-font-size: 16px;
+$extra-large-font-size: 18px;
+$huge-font-size: 20px;
+$extra-huge-font-size: 26px;
+
+
+// border
+$default-border: $default-border-size solid black;
+$double-border: $double-border-size solid black;
