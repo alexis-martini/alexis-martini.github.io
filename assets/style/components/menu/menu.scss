@@ -30,7 +30,7 @@
 @media(max-width: 600px) {
   .vrs-menu__categories {
     @include flexbox();
-    @include justify-content(center);
+    @include justify-content(space-around);
     @include align-items(center);
     position: fixed;
     background-color: white;
@@ -40,7 +40,6 @@
     border-bottom: $double-border;
 
     div {
-      margin-right: $double-margin;
       cursor: pointer;
       text-transform: uppercase;
       font-size: $extra-medium-font-size;

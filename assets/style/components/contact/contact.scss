@@ -4,6 +4,7 @@
         @include flex-direction(column);
         @include align-items(center);
         gap: $default-padding;
+        padding-top: unquote($nav-height-mobile-value  + calc(2 * $default-margin-value) + 'px ');
 
         &__location {
             width: 90%;
