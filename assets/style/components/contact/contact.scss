@@ -2,20 +2,13 @@
         height: 100%;
         @include flexbox();
         @include flex-direction(column);
-        @include align-items(center);
+        @include align-items(space-between);
         gap: $default-padding;
-        padding-top: unquote($nav-height-mobile-value  + calc(2 * $default-margin-value) + 'px ');
 
         &__location {
-            width: 90%;
-            @include flexbox();
-            @include flex-direction(column);
-            @include align-items(center);
-            padding: $double-padding 0;
-            border: $double-border;
-
+            margin: $default-margin 0;
             &__name {
-                font-weight: 700;
+                font-weight: 600;
                 font-size: $huge-font-size;
             }
 
@@ -24,14 +17,14 @@
             }
         }
 
-        &__email {
-            display: flex;
-            margin-top: $double-margin;
-            margin-bottom: $double-margin;
-
-            img {
-                width: 20px;
-                margin-right: $default-margin;
+        &__phone-email {
+            font-size: $extra-huge-font-size;
+            &__element {
+                @include flexbox();
+                img {
+                    width: 20px;
+                    margin-right: $default-margin;
+                }
             }
         }
 
@@ -41,25 +34,38 @@
         }
     }
 
+    @media (max-width: 600px) {
+        .vrs-contact {
+            padding-top: unquote($nav-height-mobile-value  + calc(1 * $default-margin-value) + 'px ');
+            margin: 0 $double-margin;
+
+            &__phone-email {
+             font-size: $huge-font-size;
+             }
+        }
+    }
+
     @media screen and (min-width: 601px){
         .vrs-contact {
-            justify-content: center;
+            width: 50%;
+            padding: 100px 20px;
 
             &__location {
-                width: 50%;
-            }
-
-            h2 {
-                margin-top: 0;
+                margin: $double-margin 0;
             }
         }
     }
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 601px) and (max-height: 460px) {
         .vrs-contact {
+            padding: 20px;
+
             &__location {
-                width: 30%;
+                margin: 0 0;
+            }
+
+            &__phone-email {
+                font-size: $extra-large-font-size;
             }
         }
     }
-

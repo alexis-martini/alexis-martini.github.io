@@ -53,10 +53,10 @@
                 "desc": "Ostry, ale tak na serio, nie dla leszczy. Gęsty, kremowy i mocno sezamowy. Jest w nim naszej roboty tahini, olej chilli, czarny ocet z Chin, oraz mrowiący w język pieprz syczuański. Mocny i sycący.",
                 "desc2": "sojowe mielone, kiełki mung, pak choi i szczypiorek."
             },
-            "pumpkin-spicy-miso-ramen": {
-                "name": "Pumpkin Spicy Miso Ramen",
-                "desc": "Nasze klasyczne spicy miso*, tyle że trochę bardziej jesieniarskie, z masłem orzechowym, dynią i korzennymi przyprawami jak z pumpkin spice latte.",
-                "desc2": "Pieczona dynia, pomarańczowe kluseczki, masło orzechowe, korzenne przyprawy i chrupki Curly’s"
+            "spicy-miso-ramen": {
+                "name": "Spicy Miso Ramen",
+                "desc": "Gęsty kremowy bulion, mieszanka japońskich past miso, sezamu i ostrego chilli. Poziom ostrości: nieduży. Możesz poprosić o większy!",
+                "desc2": "W misce: pieczony batat, blanszowany pak choi, kiełki mung, szczypiorek, nitki chilli."
             },
             "creamy-shio-ramen": {
                 "name": "Creamy Shio Ramen",
@@ -70,12 +70,12 @@
             },
             "miso-carmel-apple": {
                 "name": "Jabłko Misokarmel",
-                "desc": "Gęsty, kremowy bulion, w smaku trochę morski przez glony i trochę leśny przez grzyby. Jakby robotnicze wakacje na Okinawie.",
+                "desc": "Smażone jabłuszko, pycha jak w przedszkolu, tylko fajniej, bo polane karmelem miso i posypane cynamonowoą mąką migdałową.",
                 "desc2": ""
             },
             "amazake": {
                 "name": "amazake",
-                "desc": "Gęsty, kremowy bulion, w smaku trochę morski przez glony i trochę leśny przez grzyby. Jakby robotnicze wakacje na Okinawie.",
+                "desc": "",
                 "desc2": ""
             },
             "cola": {
@@ -151,7 +151,7 @@
         }
     },
     "_contact": {
-        "reservations": "Nie prowadzimy rezerwacji.",
+        "reservations": "Nie prowadzimy rezerwacji stolików i nie realizujemy obecnie zamówień z dowozem. Jeśli chcesz zamówić ramen z odbiorem, zadzwoń do nas!",
         "muranow": {
             "name": "MURANÓW",
             "info": ""

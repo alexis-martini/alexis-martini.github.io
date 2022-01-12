@@ -46,7 +46,7 @@
                 "desc": "Thicc, spicy and creamy broth with vegan meat. Soup is made with our veggie broth, soy milk, homemade tahini, chilli oil, black vinegar from China and spicy Szechuan pepper with tongue paralysing properties.",
                 "desc2": "Toppings: minced soy meat, mung bean sprouts, chives and bok choy. Attention: spicy, not for rookies."
             },
-            "pumpkin-spicy-miso-ramen": {
+            "spicy-miso-ramen": {
                 "name": "Pumpkin Spicy Miso Ramen",
                 "desc": "Thick and creamy broth with a mix of Japanese miso paste, sesame and chilli. Is it spicy? Not really, but if you're not used to spicy food it may squeeze out a tear or two.",
                 "desc2": "Toppings: baked sweet potato, blanched bok choy, mung bean sprouts, chives and chilli threads."
@@ -68,7 +68,7 @@
             },
             "amazake": {
                 "name": "Homemade Amazake",
-                "desc": "A traditional Japanese drink made with fermented rice. Also known as sweet sake. Warm, healthy and non alcoholic.",
+                "desc": "",
                 "desc2": ""
             },
             "cola": {
@@ -144,7 +144,7 @@
         }
     },
     "_contact": {
-        "reservations": "We don't make reservations.",
+        "reservations": "We do not hold table reservations and do not currently process orders with delivery. If you would like to order ramen with pickup, please call us!",
         "muranow": {
             "name": "MURANÓW",
             "info": ""
